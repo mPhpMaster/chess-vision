@@ -1,0 +1,14 @@
+# Build output
+build/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# Personal data (saved in %APPDATA%\ChessVision; older copies may sit here)
+calibration.npz
+queens_stats.json
+
+# Generated
+installer/icon_preview.png
